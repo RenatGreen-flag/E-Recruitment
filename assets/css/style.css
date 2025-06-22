@@ -1,0 +1,16 @@
+:root{
+    /*Variabel color*/
+    --var-color-tersier: #035F79;
+    --var-color-font-gray: #666666;
+    --var-color-font-tosca: #D4FADB; 
+    --var-color-1: #1F4E78;
+    --var-color-darkblue: #001F3F;
+    --var-col-btn-green: #34C759;
+    --var-col-btn-orange: #FF9500;
+}
+
+body{
+    background-image: url(../img/Login-bg.png);
+    background-size: cover;
+    background-position: center;
+}
