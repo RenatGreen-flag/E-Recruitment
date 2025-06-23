@@ -1,6 +1,6 @@
 <?php
-include ('../controller/userauth.php');
-include ('../koneksi/koneksi.php');
+
+include ('koneksi/koneksi.php');
 
 ?>
 
@@ -24,11 +24,20 @@ include ('../koneksi/koneksi.php');
   </head>
   <body class="bg-white text-gray-800">
     <!-- Header -->
-      <nav>
-        <?php 
-          include ('../componen/navbarIndex.php');
-        ?>
+      <header class="bg-white shadow-md py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="font-bold text-xl text-blue-900">ANANDA</div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="http://e-recruitment.test/inde.php#" class="text-blue-900 font-medium hover:underline" >Beranda</a>
+        <a href="http://e-recruitment.test/lowonganTersedia.php" class="text-blue-900 font-medium hover:underline">Lowongan Tersedia</a>
+        <a href="#" class="text-blue-900 font-medium hover:underline">Tentang</a>
       </nav>
+       <div class="getStart flex gap-3">
+            <a href="http://e-recruitment.test/view/Login.php" class="bg-blue-900 text-white py-2 px-4 rounded-md font-medium hidden md:block">Login </a>
+            <a href="http://e-recruitment.test/view/Register2.php" class="bg-blue-900 text-white py-2 px-4 rounded-md font-medium hidden md:block">Sign up </a>
+       </div>
+    </div>
+  </header>
   
     <!-- Main Content -->
     <main class="w-full mx-auto">
@@ -39,7 +48,7 @@ include ('../koneksi/koneksi.php');
                 <div class="space-y-6  mx-auto">
                 <!-- Job Card -->
                 <?php 
-                    include ('../componen/card.php');
+                    include ('componen/card.php');
                 ?>
                 </div>
             </section>
@@ -51,7 +60,7 @@ include ('../koneksi/koneksi.php');
     <!-- Footer -->
     <footer>
       <?php 
-        include ('../componen/footer.php');
+        include ('componen/footer.php');
       ?>
     </footer>
 

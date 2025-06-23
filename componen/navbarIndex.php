@@ -22,26 +22,26 @@
   <nav class="flex items-center justify-between px-10 py-4 bg-white border-b">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
-      <img src="../assets/img/COMPANY LOGO-blue.png" alt="Logo" class="h-10">
+      <img src="http://e-recruitment.test/assets/img/COMPANY%20LOGO-blue.png" alt="Logo" class="h-10">
       <div class="text-xs text-[#065f73] font-semibold uppercase">PT. ANANDA<br><span class="text-[10px] tracking-widest">Lintas Cakrawala</span></div>
     </div>
 
     <!-- Menu -->
     <ul class="flex space-x-5 text-[#065f73] font-medium">
       <li>
-        <button onclick="showSection('tentang')" class="nav-link">Tentang</button>
+        <button onclick="showSection('tentang')" class="nav-link"><a href="http://e-recruitment.test/view/landingPage.php">Tentang</a></button>
       </li>
       <li>
-        <button onclick="showSection('lamaran')" class="nav-link">Lowongan</button>
+        <button onclick="showSection('lamaran')" class="nav-link"><a href="http://e-recruitment.test/view/navLowongan.php">Lowongan</a></button>
       </li>
       <li>
-        <button onclick="showSection('lamaran')" class="nav-link">Lamaran Saya</button>
+        <button onclick="showSection('lamaran')" class="nav-link"><a href="http://e-recruitment.test/view/lamaranSaya.php"></a>Lamaran Saya</button>
       </li>
       <li>
-        <button onclick="showSection('profil')" class="nav-link">Profil</button>
+        <button onclick="showSection('profil')" class="nav-link"><a href="http://e-recruitment.test/view/navProfil.php"></a>Profil</button>
       </li>
       <li>
-        <button onclick="showSection('pengumuman')" class="nav-link">Pengumuman</button>
+        <button onclick="showSection('pengumuman')" class="nav-link"><a href="http://e-recruitment.test/view/navPengumuman.php">Pengumuman</a></button>
       </li>
     </ul>
   </nav>
