@@ -15,7 +15,7 @@
       <!-- Foto Profil -->
       <div class="flex flex-col items-center col-span-1">
         <div class="relative">
-          <img src="https://via.placeholder.com/150" alt="Foto Profil" class="rounded-full w-40 h-40 border border-gray-400 object-cover">
+          <img src="../assets/img/officeST.jpg" alt="Foto Profil" class="rounded-full w-40 h-40 border border-gray-400 object-cover">
           <label for="foto" class="absolute bottom-0 right-0 bg-blue-900 text-white rounded-full p-2 cursor-pointer">
             <i data-lucide="edit" class="w-4 h-4"></i>
           </label>

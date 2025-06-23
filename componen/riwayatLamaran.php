@@ -1,9 +1,10 @@
 <?php
-
+include '../controller/userauth.php';
 include '../koneksi/koneksi.php';
 
 $id_kandidat = $_SESSION['id']; // pastikan ini sudah diset saat login
 var_dump($id_kandidat);
+echo $id_kandidat;
 
 $query = "
 SELECT 
@@ -13,14 +14,13 @@ SELECT
     hp.putusan AS status
 FROM lamaran l
 JOIN lowongan lw ON l.kd_lowongan = lw.kd_lowongan
-LEFT JOIN hasil_putusan hp ON l.no_lamaran = hp.no_lamaran_custom
+LEFT JOIN hasil_putusan hp ON l.no_lamaran_custom = hp.no_lamaran_custom
 ORDER BY l.tgl_pengajuan DESC
 WHERE l.id_kandidat = ?
 ";
 
 $stmt = $koneksi->prepare($query);
 $stmt->bind_param("i", $id_kandidat);
-
 
 $stmt->execute();
 $result = $stmt->get_result()->fetch_assoc();

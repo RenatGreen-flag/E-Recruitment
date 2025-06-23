@@ -18,7 +18,7 @@
 
 
 <footer class="bg-[#1E4A78] text-[#E1FFE1] py-10 px-6">
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20 items-center">
 
     <!-- Kolom: Jadilah Mitra Kami -->
     <div>
@@ -32,13 +32,13 @@
 
     <!-- Kolom: Logo Tengah -->
     <div class="flex flex-col items-center justify-center">
-      <img src="../assets/img/COMPANY LOGO-white-lg.png" alt="Logo" class="h-36 w-auto" />
+      <img src="../assets/img/COMPANY LOGO-white-lg.png" alt="Logo" class="h-40 w-auto" />
     </div>
 
     <!-- Kolom: Layanan Kami -->
     <div>
-      <h4 class="text-xl font-bold mb-2">Layanan Kami</h4>
-      <ul class="space-y-1 text-sm underline">
+      <h4 class="text-xl text-center font-bold mb-2">Layanan Kami</h4>
+      <ul class="space-y-1 text-sm text-center underline">
         <li><a href="#">Mitra</a></li>
         <li><a href="#">Produk Partner Kami</a></li>
         <li><a href="#">Brand Kami</a></li>

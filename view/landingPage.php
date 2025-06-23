@@ -29,33 +29,20 @@
 </head>
 <body class="font-poppins antialiased text-gray-800">
 
-    <header class="border-b border-gray-200 px-6 py-2 flex items-center justify-between">
-      <div class="flex items-center space-x-2 text-xs">
-        <span class="text-white font-semibold">📞 021 038 778</span>
-        <span class="text-white">|</span>
-        <span class="text-white">JL.JAGAKARSA RAYA, RT.014/01,KEL.JAGAKARSA, Jakarta Selatan.</span>
-      </div>
-    </header>
+    
     
     <!-- Navbar -->
-    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow">
-      <div class="flex items-center space-x-2">
-        <img src="../assets/img/COMPANY LOGO.png" alt="Logo" class="h-10 w-auto" />
-        <span class="font-bold text-xl text-blue-900">PT. ANANDA LINTAS CAKRAWALA</span>
-      </div>
-      <div class="flex space-x-6 text-blue-900 font-semibold">
-        <a href="#" class="border-b-2 border-blue-900 pb-1">Tentang</a>
-        <a onclick="OnchangeBtn('view/test.php')">Lamaran Saya</a>
-        <a href="#">Profil</a>
-        <a href="#">Pengumuman</a>
-      </div>
+    <nav>
+      <?php 
+        include ('../componen/navbarIndex.php');
+      ?>
     </nav>
 
     <!-- Hero Section -->
     <section class="flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gray-50">
         <div class="md:w-1/2 space-y-4">
             <h1 class="text-3xl font-bold text-gray-800 leading-snug">
-                Bergabunglah Bersama<br>PT. Ananda Lintas Cakrawala
+                Selamat <br><?= $_SESSION['nama'] ?>
             </h1>
             <p class="text-blue-800 text-sm">
                 Kami membuka peluang bagi individu berdedikasi dan bersemangat untuk menjadi bagian dari revolusi digital di dunia distribusi.
@@ -115,36 +102,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-teal-900 text-white px-8 py-10 mt-12">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-            <div>
-                <h4 class="font-semibold mb-2">Jadilah Mitra Kami</h4>
-                <form>
-                    <input type="email" placeholder="Email Bisnis Anda" class="w-full px-3 py-2 rounded text-black mb-2">
-                    <button type="submit" class="bg-white text-teal-900 px-4 py-2 rounded font-semibold">Kirim</button>
-                </form>
-                <p class="mt-3 text-gray-300">Jl. Jagakarsa Raya, RT.014/01, KEL. Jagakarsa</p>
-            </div>
-            <div class="text-center">
-                <img src="assets/images/logo-white.png" class="h-16 mx-auto mb-2" alt="Ananda Logo">
-                <p>© 2023 Ananda Lintas Cakrawala. All rights reserved.</p>
-            </div>
-            <div>
-                <h4 class="font-semibold mb-2">Layanan Kami</h4>
-                <ul class="space-y-1">
-                    <li><a href="#" class="hover:underline">Mitra</a></li>
-                    <li><a href="#" class="hover:underline">Produk Partner</a></li>
-                    <li><a href="#" class="hover:underline">Karir</a></li>
-                    <li><a href="#" class="hover:underline">Hubungi Kami</a></li>
-                </ul>
-                <div class="flex gap-3 mt-3">
-                    <a href="#"><img src="assets/images/icon-fb.png" class="h-5" alt=""></a>
-                    <a href="#"><img src="assets/images/icon-ig.png" class="h-5" alt=""></a>
-                    <a href="#"><img src="assets/images/icon-wa.png" class="h-5" alt=""></a>
-                    <a href="#"><img src="assets/images/icon-x.png" class="h-5" alt=""></a>
-                </div>
-            </div>
-        </div>
+    <footer>
+        <?php include '../componen/footer.php'?>
     </footer>
 
 </body>

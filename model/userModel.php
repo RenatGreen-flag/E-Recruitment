@@ -16,7 +16,7 @@ class model{
 
     public function userModelRegister($nama,$email,$password){
         $hashPw = password_hash($password,PASSWORD_DEFAULT);
-        $sql = "INSERT into kandidat(nama_kandidat,email,password) values(???)";
+        $sql = "INSERT into kandidat(nama_kandidat,email,password) values(?,?,?)";
          $prepare = mysqli_prepare($this->koneksi,$sql);
          $prepare->bind_param('sss',$nama,$email, $hashPw);
          $prepare->execute();

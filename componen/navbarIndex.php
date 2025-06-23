@@ -29,7 +29,10 @@
     <!-- Menu -->
     <ul class="flex space-x-5 text-[#065f73] font-medium">
       <li>
-        <button onclick="showSection('lowongan')" class="nav-link active">Lowongan</button>
+        <button onclick="showSection('tentang')" class="nav-link">Tentang</button>
+      </li>
+      <li>
+        <button onclick="showSection('lamaran')" class="nav-link">Lowongan</button>
       </li>
       <li>
         <button onclick="showSection('lamaran')" class="nav-link">Lamaran Saya</button>
@@ -42,17 +45,6 @@
       </li>
     </ul>
   </nav>
-
-  <!-- Content Sections -->
-  <div class="p-6">
-    <div id="lowongan" class="section">
-    </div>
-    <div id="lamaran" class="section hidden">
-      <?php include ('riwayatLamaran.php') ?>
-    </div>
-    <div id="profil" class="section hidden">👤 Ini Halaman Profil</div>
-    <div id="pengumuman" class="section hidden">📢 Ini Halaman Pengumuman</div>
-  </div>
 
   
 </body>
