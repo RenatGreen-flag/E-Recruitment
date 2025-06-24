@@ -15,11 +15,14 @@ include __DIR__. '/koneksi/koneksi.php';
   <!-- Navbar -->
   <header class="bg-white shadow-md py-4">
     <div class="container mx-auto flex justify-between items-center px-4">
-      <div class="font-bold text-xl text-blue-900">ANANDA</div>
+      <div class="flex items-center space-x-2">
+        <img src="http://e-recruitment.test/assets/img/COMPANY%20LOGO-blue.png" alt="Logo" class="h-10">
+        <div class="text-xs text-[#065f73] font-semibold uppercase">PT. ANANDA<br><span class="text-[10px] tracking-widest">Lintas Cakrawala</span></div>
+      </div>
       <nav class="space-x-6 hidden md:flex">
-        <a href="#" class="text-blue-900 font-medium hover:underline">Beranda</a>
-        <a href="" class="text-blue-900 font-medium hover:underline">Lowongan Tersedia</a>
-        <a href="#" class="text-blue-900 font-medium hover:underline">Tentang</a>
+        <a href="http://e-recruitment.test/inde.php" class="text-blue-900 font-medium hover:underline">Beranda</a>
+        <a href="http://e-recruitment.test/lowonganTersedia.php" class="text-blue-900 font-medium hover:underline">Lowongan Tersedia</a>
+        <a href="http://e-recruitment.test/tentang.php" class="text-blue-900 font-medium hover:underline">Tentang</a>
       </nav>
        <div class="getStart flex gap-3">
             <a href="http://e-recruitment.test/view/Login.php" class="bg-blue-900 text-white py-2 px-4 rounded-md font-medium hidden md:block">Login </a>
@@ -43,8 +46,8 @@ include __DIR__. '/koneksi/koneksi.php';
 
   <!-- Why Join Section -->
   <section class="bg-gray-50 py-12">
-    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
-      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+    <div class="container mx-auto px-4 md:flex-row items-center">
+      <div class="w-full md:w-full mb-8 md:mb-0">
         <img src="http://e-recruitment.test/assets/img/wanita.png" alt="Woman smiling" class="rounded-lg">
       </div>
     </div>
@@ -82,7 +85,7 @@ include __DIR__. '/koneksi/koneksi.php';
   </section>
 
   <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-8">
+  <footer>
     <?php 
       include 'componen/footer.php';
     ?>

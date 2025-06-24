@@ -14,7 +14,7 @@ session_start();
             $_SESSION['email'] = $login['email'];
             $_SESSION['id'] = $login['id_kandidat'];
             $_SESSION['nama'] = $login['nama_kandidat'];
-            header("location: http://e-recruitment.test/view/lowongan.php");
+            header("location: http://e-recruitment.test/view/landingPage.php");
             exit;
         }else {
           echo "<script>

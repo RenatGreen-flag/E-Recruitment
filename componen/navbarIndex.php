@@ -35,10 +35,10 @@
         <button onclick="showSection('lamaran')" class="nav-link"><a href="http://e-recruitment.test/view/navLowongan.php">Lowongan</a></button>
       </li>
       <li>
-        <button onclick="showSection('lamaran')" class="nav-link"><a href="http://e-recruitment.test/view/lamaranSaya.php"></a>Lamaran Saya</button>
+        <button onclick="showSection('lamaran')" class="nav-link"><a href="http://e-recruitment.test/view/lamaranSaya.php">Lamaran Saya</a></button>
       </li>
       <li>
-        <button onclick="showSection('profil')" class="nav-link"><a href="http://e-recruitment.test/view/navProfil.php"></a>Profil</button>
+        <button onclick="showSection('profil')" class="nav-link"><a href="http://e-recruitment.test/view/navProfil.php">Profil</a></button>
       </li>
       <li>
         <button onclick="showSection('pengumuman')" class="nav-link"><a href="http://e-recruitment.test/view/navPengumuman.php">Pengumuman</a></button>

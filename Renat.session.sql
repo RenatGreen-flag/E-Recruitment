@@ -167,8 +167,9 @@ CREATE TABLE lamaran2 (
     FOREIGN KEY (id_kandidat) REFERENCES kandidat(id_kandidat)
 );
 
-INSERT INTO lamaran2 (id_kandidat, no_lamaran_custom, tgl_pengajuan) VALUES
-('2','1-02', '2025-06-21');
+INSERT INTO lamaran (id_kandidat, kd_lowongan, no_lamaran_custom, tgl_pengajuan) VALUES
+('13','LWAG','LWAG-2025-13', '2025-06-21'),
+('13','LWPW','LWPW-2023-13', '2023-06-21');
 
 INSERT INTO loker_yg_dilamar (no_lowongan, kd_lamaran, no_lamaran_custom) VALUES
 ('LWPW', 'LWPW-2-01', '2-01');
