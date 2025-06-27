@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__.'/lowongan.php';
+include __DIR__.'../model/lowongan.php';
 include '../koneksi/koneksi.php';
 
 $lowongan = new Lowongan($koneksi);
