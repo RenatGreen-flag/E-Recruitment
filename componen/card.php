@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__.'../model/lowongan.php';
+include '../model/lowongan.php';
 include '../koneksi/koneksi.php';
 
 $lowongan = new Lowongan($koneksi);
@@ -21,14 +21,14 @@ $getlowongan = $lowongan->tampilkanLowongan(); //sesuai fungsi di lowongan.php
           <?php foreach($getlowongan as $data):?>
           <div class="border-b pb-4">
             <a href="#" class="text-lg font-semibold text-blue-900 hover:underline">
-              <?php echo $data['judul']?>
+              <?php echo $data['posisi']?>
             </a>
             <p class="text-sm text-gray-600 mt-1">
               <?php echo $data['deskripsi']?>
             </p>
             <div class="text-sm text-blue-600 mt-2 flex justify-between">
               <span>
-                <?php echo $data['tgl_unggahan']?>
+                <?php echo $data['tgl_penutupan']?>
               </span>
               <a href="#" class="text-sm italic text-gray-500">lihat selengkapnya...</a>
             </div>

@@ -26,19 +26,19 @@
       </button>
     </div>
     <nav class="space-y-2 text-sm">
-      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
+      <a href="http://e-recruitment.test/admin/dashboard.php" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
         <span class="material-symbols-outlined">dashboard</span> Dashboard
       </a>
-      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
+      <a href="http://e-recruitment.test/admin/panelLoker.php" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
         <span class="material-symbols-outlined">work</span> Lowongan Kerja
       </a>
-      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
+      <a href="http://e-recruitment.test/admin/kelolaKandidat.php" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
         <span class="material-symbols-outlined">person</span> Kandidat
       </a>
-      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded bg-blue-700">
+      <a href="http://e-recruitment.test/admin/seleksiBerkas.php" class="flex items-center gap-2 px-3 py-2 rounded bg-blue-700">
         <span class="material-symbols-outlined">folder</span> Seleksi Berkas
       </a>
-      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
+      <a href="http://e-recruitment.test/admin/kelolaPengumuman.php" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-blue-700 transition">
         <span class="material-symbols-outlined">notifications</span> Pengumuman
       </a>
     </nav>
